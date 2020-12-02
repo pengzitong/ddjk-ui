@@ -1,0 +1,7 @@
+@import "./variable";
+
+.jk-button {
+  border: 1px solid $bColor;
+  background-color: $primary-color;
+  color: $color;
+}

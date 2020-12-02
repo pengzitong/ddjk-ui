@@ -8,3 +8,4 @@ build/
 vue.config.js
 babel.config.js
 *.map
+.idea

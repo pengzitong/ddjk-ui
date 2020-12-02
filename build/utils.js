@@ -15,7 +15,9 @@ module.exports = {
         ret[item] = resolve(join(itemPath, 'index.js'))
       } else {
         const [name] = item.split('.')
-        ret[name] = resolve(`${itemPath}`)
+        if (name === 'index') {
+          ret[name] = resolve(`${itemPath}`)
+        }
       }
       return ret
     }, {})

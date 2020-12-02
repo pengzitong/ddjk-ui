@@ -1,30 +1,23 @@
 <template>
   <div id="app">
-    <layout>
-      <div slot="header">
-        <div style="background: #f00;">123</div>
-      </div>
-      <div slot="content">
-        <div style="background: #f0f;height: 1000px">456</div>
-      </div>
-      <div slot="footer"><h3>3</h3></div>
-    </layout>
+    <jk-button>12</jk-button>
+    <div class="test">123</div>
   </div>
 </template>
-
 <script>
 
-import layout from '@packages/layout/index'
+// import JkButton from '../lib/button'
+import JkButton from '@packages/button/index'
 
 export default {
   name: 'App',
   components: {
-    layout
+    JkButton
   }
 }
 </script>
 
-<style>
+<style lang="scss">
   html,body {
     height: 100%;
     margin: 0;

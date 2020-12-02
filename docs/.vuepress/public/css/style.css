@@ -1,0 +1,12 @@
+.navbar .site-name::before {
+    content: '';
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    background: url("../img/logo.jpg") no-repeat center/cover;
+    margin-right: 10px;
+}
+.navbar .site-name {
+    display: flex;
+    align-items: center;
+}
